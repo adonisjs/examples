@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="oklch(0.965 0.012 82)" />
+    <title inertia>Instant visits · Inertia v3 Lab</title>
+
+    @viteReactRefresh()
+    @vite(['inertia/app.tsx'])
+    @inertiaHead()
+    @stack('dumper')
+  </head>
+
+  <body>
+    @inertia()
+  </body>
+
+</html>
